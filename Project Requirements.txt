@@ -1,0 +1,17 @@
+* Have a generator autostart if power loss is detected
+
+* Have an existing electric start generator like a Harbor Freight Predator 8750 known by many as a typical chonda (chinese Honda knockoff)
+
+* Expecting to be able to still manually start the generator along with automatically by tapping into existing generator wiring system, not a complete rewire the generator ignition.
+
+* We have a manual transfer swtich/box that the generator is hooked into. This creates the need for a safe guard in it to require a button to be pushed by a human to indicate someone is home and flipped the switch transfer box to generator power and back.
+
+* Also when power comes back on it will wait 5 minutes after button push before it turns off the generator. The 5 minutes is to provide a cool down session for the generator along with validate the pole power is stable as often we see during power outages a few flickers of power or be back on and then a minute later go right back off.
+
+* Have a LED which when off it indicates the house is on pole power.
+
+* We want to test start the generator once a month and let it run the 30 mintues. This will keep the start battery fully conditioned and fresh fuel flowing through the carb along test the start.
+
+* There is also an enclosure my generator is in so if the temp reaches 90F or higher and generator is running to turn on the vent fan.
+
+* We are using relays and sensors purchased from Amazon. I want to keep things as simple.
