@@ -1,0 +1,33 @@
+* Uno/Nano (I have a nano but it is the same as Uno but with a few extra pins)
+
+* 4 relay module
+
+* LC Technologies AC voltage sensor
+
+* Waterproof 20kg servo to control choke
+
+* 12v solonoid valve for gas on/off
+
+* button
+
+* hall sensor 3 wire NO
+
+* 1" LCD SPI display
+
+* DS3231 Real Time Clock
+
+* x2 TMP36 temperature sensors
+
+* green LED to indicate generator is running
+
+* red LED to indicate if safe to stop generator
+
+* yellow LED to indicate gas on
+
+* blue LED to indicate ignition on
+
+* white LED to indicate Starter on
+
+* 2 watertight boxes to house the electronics
+
+IMPORTANT INFO: The 4 way relay I got has NormOpen side be actually HIGH and to enable set to LOW. This way if the board or a wire becomes disconnected then you dont have relays enabled and burning out say your starter. This also saves wear on your relay module since you dont need to energize your relays to open the circuit. So set to HIGH to disengage relay (no power) and LOW to engage relay (with power).
